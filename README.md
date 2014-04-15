@@ -9,4 +9,4 @@ Implementation Technologies:
 - MySQL 14.14
 - Python 2.6.7
 - Apache Python WSGI module
-- Django 1.7
+- Django 1.6.2
