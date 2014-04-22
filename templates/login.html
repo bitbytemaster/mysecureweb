@@ -1,0 +1,18 @@
+﻿$var cssfiles: /static/css/login.css
+$var jsfiles: /static/js/TypingText.js
+$var type: text/html;charset=utf-8 
+<center><img width="100px" height="100px" src="/static/img/bw_hat.png" /></center>
+<form name="main" method="post"> 
+<table align="center" style="margin-top:10px">
+    <tr><th colspan="2" vAlign="top" align="center"> 
+     ^_~ 黑我吧 ~_^<div id="hackme">Hack me if you can...</div><p></th></tr>
+    <tr><th><label for="username">用户名</label></th><td><input type="text" id="username" name="username"/></td></tr>
+    <tr><th><label for="password">密码</label></th><td><input type="password" id="password" name="password"/></td></tr>
+    <tr><th><label for="Login"></label></th><td><button id="Login" type="submit" name="Login">登录</button></td></tr>
+</table>
+</form>
+<script type="text/javascript">
+  new TypingText(document.getElementById("hackme"));
+  TypingText.runAll();
+  document.getElementById("username").focus();
+</script>

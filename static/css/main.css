@@ -1,0 +1,43 @@
+.body { 
+  margin-top:0px; 
+  margin-bottom: 0px; 
+  margin-left: 0px; 
+  margin-right: 0px;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    padding: 0;
+    color: black; font-size: 10pt; font-family: "Trebuchet MS", sans-serif;
+    background-color: #E2E2E2;}
+
+html{padding: 0; margin: 0;}
+
+/* ---Section Dividers -----------------------------------------------*/
+div.mainContainer{
+    height: auto; width: 100%;
+    background-color: #FFFFFF;
+    margin: 0 auto; padding: 0;}
+
+div.header{padding: 0; margin-bottom: 1em;}
+
+div.leftSidebar{
+    float: left;
+    width: 22%; height: 40em;
+    background-color: lightblue;
+    margin: 0;}
+
+div.mainContent{margin-left: 25%;}
+
+div.footer{
+    clear: both;
+    padding-bottom: 0em; margin: 0;}
+
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html div.leftSidebar { margin-right: 5px; }
+* * html div.mainContent {height: 1%; margin-left: 0;}
+*/* End hide from IE5/mac */
+

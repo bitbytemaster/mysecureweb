@@ -1,0 +1,17 @@
+﻿$def with (content)
+<html>
+<head>
+   <title>黑我吧^_~ hack me if u can!</title>
+   $if 'cssfiles' in content and content.cssfiles:
+       $for f in content.cssfiles.split():
+           <link rel="stylesheet" href="$f" type="text/css" media="screen" charset="utf-8"/>
+   $if 'jsfiles' in content and content.jsfiles:
+       $for f in content.jsfiles.split():
+           <script type="text/javascript" src="$f" ></script>
+   $if 'type' in content and content.type:
+       <meta http-equiv="content-type" content="$content.type">
+</head>
+<body>
+$:content
+</body>
+</html>

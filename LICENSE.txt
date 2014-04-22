@@ -1,0 +1,6 @@
+Open Source License:
+
+mysecureweb is licensed under <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL v3.</a>
+
+Shencha Ext-JS is included in this project is licensed under <a href="http://www.sencha.com/products/extjs/license/">GNU GPL v3</a>
+
