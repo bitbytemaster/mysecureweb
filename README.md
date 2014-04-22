@@ -1,7 +1,7 @@
 mysecureweb
 ===========
 
-A  sample web application to demonstrate typical web security vulnerabilities for training purpose
+A  sample web application created to demonstrate typical web security vulnerabilities for secure web development training purposes
 
 Implementation Technologies:
 - Linux (CentOS 6.5)
