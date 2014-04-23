@@ -13,10 +13,10 @@ Implementation Technologies:
 
 Security Vulnerabilities to illustrate:
 - Sensitive Data Exposure 
--- not fail intelligently
+  - not fail intelligently
 - Injection (lack proper input validation)
--- sql injection
--- XML injection (XML parser)
+  - sql injection
+  - XML injection (XML parser)
 - directory traversal
 - Cross-site scripting (XSS)
 - Cross-site request forgery (csrf)
