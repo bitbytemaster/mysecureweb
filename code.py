@@ -9,7 +9,8 @@ web.config.debug = True
 #web.config.debug = False
 
 urls = (
-    '', 'main',
+    '', 'remain',
+    '/(.*)/', 'redirect',    
     '/', 'main',
     '/login', 'login',
     '/logout', 'logout'
@@ -35,6 +36,14 @@ allowed = (
     ('chenric','999'),
 )
 
+class redirect:
+    def GET(self, path):
+        web.seeother('/' + path)
+
+class remain:
+    def GET(self):
+        web.seeother('/')
+
 class main:
     def GET(self):
         if session.get( 'loggedin', True ):
@@ -55,7 +64,6 @@ class login:
             session.username = wi.username
             raise web.seeother('/')
         else:
-            
             return render.login()
 
 class logout:
@@ -63,5 +71,8 @@ class logout:
         session.kill()
         ds.cleanup(0.002)  
         raise web.seeother('/login')
+
+if __name__ == "__main__":
+    app.run()
 
 #END OF FILE
