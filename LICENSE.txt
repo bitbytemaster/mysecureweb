@@ -1,10 +1,9 @@
 Open Source License:
 
-mysecureweb is licensed under 
-   <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL v3</a>.
+mysecureweb is licensed under BSD license
 
 Licnese for third-party components used in this project:
 - web.py 0.37 - public domain (https://github.com/webpy/webpy/blob/master/LICENSE.txt)
 - Python 2.7.6 - PSF License (https://docs.python.org/2.7/license.html)
 - mod_wsgi 3.4 - Apache License 2.0 (https://code.google.com/p/modwsgi/)
-- Shencha Ext JS 4.2.1 - GNU GPLv3 (http://www.sencha.com/products/extjs/license/)
+- jQuery 1.11.0 - MIT License (http://jquery.org/license/)
